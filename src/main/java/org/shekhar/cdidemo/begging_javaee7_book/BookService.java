@@ -1,4 +1,4 @@
-package org.shekhar.cdidemo;
+package org.shekhar.cdidemo.begging_javaee7_book;
 
 import javax.inject.Inject;
 
@@ -7,7 +7,6 @@ import javax.inject.Inject;
  */
 @Loggable
 public class BookService {
-
 
     @Inject
     @ThirteenDigits

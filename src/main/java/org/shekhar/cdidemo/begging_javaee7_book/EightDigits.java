@@ -1,4 +1,4 @@
-package org.shekhar.cdidemo;
+package org.shekhar.cdidemo.begging_javaee7_book;
 
 import javax.inject.Qualifier;
 import java.lang.annotation.ElementType;

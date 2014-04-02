@@ -1,7 +1,6 @@
-package org.shekhar.cdidemo;
+package org.shekhar.cdidemo.begging_javaee7_book;
 
-import javax.inject.Qualifier;
-import javax.lang.model.element.Element;
+import javax.interceptor.InterceptorBinding;
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
@@ -10,8 +9,8 @@ import java.lang.annotation.Target;
 /**
  * Created by shekhargulati on 02/04/14.
  */
-@Qualifier
+@InterceptorBinding
+@Target({ElementType.METHOD, ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)
-@Target({ElementType.TYPE, ElementType.FIELD})
-public @interface ThirteenDigits {
+public @interface Loggable {
 }

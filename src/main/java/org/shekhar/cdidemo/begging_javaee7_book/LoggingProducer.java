@@ -1,9 +1,10 @@
-package org.shekhar.cdidemo;
+package org.shekhar.cdidemo.begging_javaee7_book;
+
+import org.apache.log4j.Logger;
 
 import javax.enterprise.inject.Produces;
 import javax.enterprise.inject.spi.InjectionPoint;
 import javax.interceptor.InvocationContext;
-import java.util.logging.Logger;
 
 /**
  * Created by shekhargulati on 02/04/14.
