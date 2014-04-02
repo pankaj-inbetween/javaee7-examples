@@ -4,11 +4,6 @@
        version="1.1" bean-discovery-mode="all">
 
     <interceptors>
-        <class>org.shekhar.cdidemo.myexample.LoggingInterceptor</class>
+        <class>org.shekhar.cdidemo.begging_javaee7_book.LoggingInterceptor</class>
     </interceptors>
-
-    <decorators>
-        <class>org.shekhar.cdidemo.myexample.TitleCaseMessageDecorator</class>
-    </decorators>
-
 </beans>
