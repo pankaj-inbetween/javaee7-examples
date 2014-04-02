@@ -12,6 +12,7 @@
         <module>cdi</module>
         <module>cdi-vetoed-example</module>
         <module>bean-validation-example</module>
+        <module>jpa-example</module>
     </modules>
 
 
