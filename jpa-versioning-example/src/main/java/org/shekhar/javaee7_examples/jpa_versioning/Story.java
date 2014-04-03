@@ -17,9 +17,6 @@ public class Story {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    @Version
-    private int version;
-
     @NotNull
     @Column(nullable = false)
     @URL
@@ -75,12 +72,5 @@ public class Story {
         this.votes = votes;
     }
 
-    public int getVersion() {
-        return version;
-    }
-
-    public void setVersion(int version) {
-        this.version = version;
-    }
 }
 
