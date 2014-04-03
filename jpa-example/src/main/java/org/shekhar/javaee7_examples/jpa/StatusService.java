@@ -9,7 +9,7 @@ import javax.transaction.Transactional;
  * Created by shekhargulati on 03/04/14.
  */
 @ApplicationScoped
-@Transactional
+@Transactional(Transactional.TxType.REQUIRED)
 public class StatusService {
 
     @Inject

@@ -13,6 +13,7 @@
         <module>cdi-vetoed-example</module>
         <module>bean-validation-example</module>
         <module>jpa-example</module>
+        <module>jpa-ordering-example</module>
     </modules>
 
 
