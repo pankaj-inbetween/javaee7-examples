@@ -29,7 +29,7 @@ public class StoryService {
 
     public void incrementVote(Long storyId) {
         Story story = entityManager.find(Story.class, storyId);
-        entityManager.refresh(story, LockModeType.PESSIMISTIC_WRITE);
+        entityManager.refresh(story, LockModeType.PESSIMISTIC_FORCE_INCREMENT);
         System.out.println(Thread.currentThread().getName() + " ... Going to increment .. " + storyId + " with votes " + story.getVotes());
         story.setVotes(story.getVotes() + 1);
         System.out.println(Thread.currentThread().getName() + " ... Incremented .. " + storyId + " with votes " + story.getVotes());
