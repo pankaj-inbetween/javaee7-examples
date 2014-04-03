@@ -14,6 +14,7 @@
         <module>bean-validation-example</module>
         <module>jpa-example</module>
         <module>jpa-ordering-example</module>
+        <module>jpa-versioning-example</module>
     </modules>
 
 
