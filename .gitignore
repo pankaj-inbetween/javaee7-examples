@@ -5,3 +5,4 @@
 .idea
 target
 sql/*.sql
+todo.md
