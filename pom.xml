@@ -15,6 +15,7 @@
         <module>jpa-example</module>
         <module>jpa-ordering-example</module>
         <module>jpa-versioning-example</module>
+        <module>cdi-default-application-scope-bean</module>
     </modules>
 
 
